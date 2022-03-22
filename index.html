@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      slimeクイズ
+    </title>
+    <script type="text/javascript">
+function kotae()
+{
+ten=0
+if(f.q1.value == "2246万人") {f.q1.style.backgroundColor="aqua ";ten = ten + 12.5}
+else f.q1.style.backgroundColor="red"
+if(f.q2.value == "白と黒のストライプ") {f.q2.style.backgroundColor="aqua ";ten = ten + 12.5}
+else f.q2.style.backgroundColor="red"
+if(f.q3.value == "黄色"){f.q3.style.backgroundColor="aqua ";ten = ten + 12.5}
+else f.q3.style.backgroundColor="red"
+if(f.q4.value == "80万")  {f.q4.style.backgroundColor="aqua ";ten = ten + 12.5}
+else f.q4.style.backgroundColor="red"
+ f.tokuten.value=ten 
+if(f.q5.value == "おやつをつまみ食いしたから")  {f.q5.style.backgroundColor="aqua ";ten = ten + 12.5}
+else f.q5.style.backgroundColor="red"
+ f.tokuten.value=ten 
+if(f.q6.value == "全部")  {f.q6.style.backgroundColor="aqua ";ten = ten + 12.5}
+else f.q6.style.backgroundColor="red"
+ f.tokuten.value=ten 
+if(f.q7.value == "slime教公式サイト")  {f.q7.style.backgroundColor="aqua ";ten = ten + 12.5}
+else f.q7.style.backgroundColor="red"
+ f.tokuten.value=ten 
+if(f.q8.value == "あなたの幸せ")  {f.q8.style.backgroundColor="aqua ";ten = ten + 12.5}
+else f.q8.style.backgroundColor="red"
+ f.tokuten.value=ten 
+}
+</script>
+  </head>
+  <body>
+    <h1>
+      slimeクイズ
+    </h1>
+    <h3>
+      slimeクイズとは、神であるslime様が認めてくださったslime教に関するクイズです。<br>ちなみに、slimeクイズでのあなたの正解数、あなたのipアドレスなどは、slime教のサーバーに送られます。
+    </h3>
+    <h2>
+      さあ、クイズの始まりです。
+    </h2>
+    <form name="f">
+slime教徒数は 
+<select name="q1">
+<option>選択肢</option>
+<option>2243万人</option>
+<option>2244万人</option>
+<option>2245万人</option>
+<option>2246万人</option>
+</select>
+です。
+<p>
+slime教の宗教服は 
+<select name="q2">
+<option>選択肢</option>
+<option>白と赤のストライプ</option>
+<option>白と赤のボーダー</option>
+<option>白と黒のストライプ</option>
+<option>白と黒のボーダー</option>
+</select>
+です。<p>
+slime教の公式サイトの背景は 
+<select name="q3">
+<option>選択肢</option>
+<option>赤</option>
+<option>青</option>
+<option>黄色</option>
+<option>緑</option>
+</select>
+です。<p>
+slime革命軍の兵数は 
+<select name="q4">
+<option>選択肢</option>
+<option>60万</option>
+<option>70万</option>
+<option>75万</option>
+<option>80万</option>
+</select>
+  です。<p>
+  slime様の使いである。slimetowerが、解雇された理由は 
+<select name="q5">
+<option>選択肢</option>
+<option>slime様にコーヒーをぶっかけてしまったから</option>
+<option>仕事が遅かったから</option>
+<option>おやつをつまみ食いしたから</option>
+<option>公式サイトをハッキングしたから</option>
+</select>
+です。<p>
+slime様の得意なスポーツは 
+<select name="q6">
+<option>選択肢</option>
+<option>野球</option>
+<option>水泳</option>
+<option>ハードル走</option>
+<option>全部</option>
+</select>
+です。<br>
+slime掲示板は、googleで、 
+<select name="q7">
+<option>選択肢</option>
+<option>slime教</option>
+<option>slime掲示板</option>
+<option>slime教公式サイト</option>
+<option>slime様</option>
+</select>
+と検索すると出てきます。<p>
+slime様が願っていることは 
+<select name="q8">
+<option>選択肢</option>
+<option>slime教の繁栄</option>
+<option>slime掲示板が5chに並ぶこと</option>
+<option>タコクイズの撲滅</option>
+<option>あなたの幸せ</option>
+</select>
+です。<p>slime様はとても良いslimeです。</p>
+<input type="button" name="b1" value="答え合わせ" onclick="kotae()"> <p>
+<input name=tokuten size="6">点
+</form>
+    <h2>
+      これでクイズを終わりにします。<br>
+      お疲れさまでした。
+    </h2>
+    <style>
+      body{font-family:serif;background:yellow;}
+      h1{font-size:70px;color:blue;}
+      form{font-size:17px;}
+      input{background:white;;color:red;}
+    </style>
+  </body>
+</html>
